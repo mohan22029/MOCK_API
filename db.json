@@ -1,0 +1,10 @@
+{
+  "dashboard": [
+    { "id": 1, "location": "Station A", "flow": 120, "status": "normal" },
+    { "id": 2, "location": "Station B", "flow": 90, "status": "alert" }
+  ],
+  "alerts": [
+    { "id": 1, "message": "Low flow detected", "location": "Station B", "level": "critical", "timestamp": "2025-05-11T10:00:00Z" },
+    { "id": 2, "message": "Normal operation", "location": "Station A", "level": "info", "timestamp": "2025-05-11T09:00:00Z" }
+  ]
+}

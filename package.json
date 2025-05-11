@@ -1,0 +1,12 @@
+{
+  "name": "dwlr-mock-api",
+  "version": "1.0.0",
+  "description": "Mock API for dashboard and alert system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
